@@ -1,3 +1,3 @@
-# rsschool-cv
+# Vitali Link CV
 
-https://Zhybuliou.github.io/rsschool-cv/cv
+[link_cv](https://Zhybuliou.github.io/rsschool-cv/cv)
