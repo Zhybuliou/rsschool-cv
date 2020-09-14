@@ -1,6 +1,6 @@
 #Vitalik Zhybuliou Front-end Developer
 
-1. **Vitali Zhybuliou**
+1. Name: **Vitali Zhybuliou**
 2. Contact Info (Minsk Belarus)
 3. Summary (i want to be a front-end ninja).
 4. Skills (`html,css,bootstrap,php,Ajax,qsl,js`)
