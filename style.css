@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #fff;
+}
+.container{
+ background-color:#ccc;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+header img{
+    max-width: 300px;
+    border-radius: 25%;
+}
+h1{
+    font-size: 52px;
+    display: flex;  
+    align-items: center; 
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.rs-img{
+    width: 100px;
+    height: 100px;
+}
