@@ -22,6 +22,10 @@ section{
     justify-content: center;
     align-items: center;
 }
+article{
+    text-align: center;
+}
+
 header img{
     max-width: 300px;
     border-radius: 5%;
