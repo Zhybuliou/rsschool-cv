@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body{
+    font-family: Robot;
+    margin: 0;
+    background-color:rgba(149, 175, 169, 0.9);
+    background-size: cover;
+    font: 1.2em sans-serif;
+}
+ul,li,a{
+    margin: 0;
+    padding: 0;
+}
+.container{
+ display: flex;
+ margin: 0 auto;
+
+ max-width: 1200px;
+}
+.aside{
+    width: 30%;
+    height: auto;
+
+    background: #C0D8DE;
+}
+.content{
+    width: 70%;
+    height: auto;
+
+    background: #E4E6E7;
+}
+.avatar{
+    margin: 50px auto 20px auto;
+    width: 250px;
+    height: 250px;
+
+    background-image: url(./image/Avatar.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    -moz-transform: rotate(-18deg); /* Для Firefox */
+    -ms-transform: rotate(-18deg); /* Для IE */
+    -webkit-transform: rotate(-18deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-18deg); /* Для Opera */
+    transform: rotate(-18deg);
+
+}
+.title{
+    text-align: center;
+}
+.bold-name{
+margin-right: 10px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 42px;
+line-height: 14px;
+
+letter-spacing: 0.005em;
+
+color: #242424;
+}
+.name{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 42px;
+line-height: 14px;
+
+letter-spacing: 0.005em;
+
+color: #666666;
+
+}
+.sub-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.005em;
+
+    /* 6666 */
+
+    color: #666666;
+}
+.profile{
+    text-align: center;
+}
+.profile-h3,
+.contact-h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    /* 222 */
+
+    color: #242424;
+}
+.profile-p{
+    text-align: start;
+    width: 300px;
+
+    margin: 0 auto;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    color: #242424;
+}
+
+hr{
+    margin-top: 30px;
+    width: 70%;
+    height: 2px;
+    background: #828282;
+}
+.contact{
+    text-align: center;
+}
+.contact-h4{
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+
+text-align: center;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+
+color: #242424;
+}
+.contact-p{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #242424;
+}
+.skill-field{
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dot {
+margin-left: 5px;
+width: 10px;
+height: 10px;
+background: #242424;
+border-radius: 50%;
+}
+.dot-active {
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    background: rgba(36, 36, 36, 0.5);
+    border-radius: 50%; 
+}
+.all-dot{
+    display: flex;
+}
+.content-header{
+    height: 100px;
+}
+.content-heder-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 80px solid #C0D8DE;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	height: 0;
+	width: 300px;
+    -moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
+}
+.content-heder-ul{
+    display: flex;
+    flex-direction: column;
+
+    list-style-type: none;
+    -moz-transform: rotate(-180deg); /* Для Firefox */
+    -ms-transform: rotate(-180deg); /* Для IE */
+    -webkit-transform: rotate(-180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-180deg); /* Для Opera */
+    transform: rotate(-180deg);
+}
+.content-heder-ul > .ul-seperator > li {
+   margin-bottom: 10px; 
+   margin-left: 30px;
+}
+.ul-seperator{
+    display: flex;
+}
+.content-heder-ul > .ul-seperator> li > a {
+    text-decoration: none; 
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #242424;
+ }
+ .content-heder-ul > .ul-seperator > li > a:hover{
+     color: #fff;
+ }
+ .education{
+     margin-top: 40px;
+ }
+ .education-header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+     height: 50px;
+     margin: 0 auto;
+    background: #242424;
+ }
+ .education-h3{
+     color: #fff;
+     text-transform: uppercase;
+ }
+ .education-description{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+
+     width: 80%;
+     margin: 0 auto;
+ }
+ .description-p {
+     margin: 0;
+     padding: 0;
+ }
+ .skills-list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 70%;
+     margin: 0 auto;
+ }
+ .skill-list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+ }
+ .project-link>a{
+    text-decoration: none;
+    color: #000;
+ }
+ .project-link>a:hover{
+    text-decoration: none;
+    color: rgb(184, 11, 11);
+ }
+ .bold{
+   font-weight: 600;
+ }
+ footer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 1200px;
+     background: #ccc;
+     height: 50px;
+     margin: 0 auto;
+ }
+ @media (max-width: 1000px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+        max-width: 1200px;
+       }
+    .aside{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+    
+        background: #E4E6E7;
+    }
+ }
+ @media (max-width: 550px){
+    .skill-list-item{
+        flex-wrap: wrap;
+    }
+    .content-heder-link{
+        width: auto;
+        border-bottom: 130px solid #C0D8DE;
+    }
+    
+ }
+ @media (max-width: 460px){
+    .content-heder-ul > .ul-seperator> li > a > span{
+        font-size: 0px;
+    }
+    .content-heder-link{
+        width: auto;
+        border-bottom: 80px solid #C0D8DE;
+    }
+ }
