@@ -36,10 +36,10 @@ ul,li,a{
     background-image: url(./image/Avatar.jpg);
     background-size: cover;
     border-radius: 50%;
-    -moz-transform: rotate(-18deg); /* Для Firefox */
-    -ms-transform: rotate(-18deg); /* Для IE */
-    -webkit-transform: rotate(-18deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(-18deg); /* Для Opera */
+    -moz-transform: rotate(-18deg); 
+    -ms-transform: rotate(-18deg); 
+    -webkit-transform: rotate(-18deg); 
+    -o-transform: rotate(-18deg); 
     transform: rotate(-18deg);
 
 }
@@ -75,12 +75,7 @@ color: #666666;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    /* identical to box height */
-
     letter-spacing: 0.005em;
-
-    /* 6666 */
-
     color: #666666;
 }
 .profile{
@@ -92,14 +87,9 @@ color: #666666;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    /* identical to box height */
-
     text-align: center;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-
-    /* 222 */
-
     color: #242424;
 }
 .profile-p{
@@ -182,10 +172,10 @@ border-radius: 50%;
 	border-right: 100px solid transparent;
 	height: 0;
 	width: 300px;
-    -moz-transform: rotate(180deg); /* Для Firefox */
-    -ms-transform: rotate(180deg); /* Для IE */
-    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(180deg); /* Для Opera */
+    -moz-transform: rotate(180deg); 
+    -ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg); 
     transform: rotate(180deg);
 }
 .content-heder-ul{
@@ -193,10 +183,10 @@ border-radius: 50%;
     flex-direction: column;
 
     list-style-type: none;
-    -moz-transform: rotate(-180deg); /* Для Firefox */
-    -ms-transform: rotate(-180deg); /* Для IE */
-    -webkit-transform: rotate(-180deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(-180deg); /* Для Opera */
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg); 
+    -webkit-transform: rotate(-180deg); 
+    -o-transform: rotate(-180deg); 
     transform: rotate(-180deg);
 }
 .content-heder-ul > .ul-seperator > li {

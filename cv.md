@@ -9,8 +9,9 @@
 ### About myself:
 Hi. I am front-end developer and i have experience in freelance.
 I have also received an RS School JavaScript/Front-end in 2021.
+I have also received an RS School REACT in 2022.
 I want to become a middle front-end developer in the next 2 years
-My next goal is to finish learning React.
+
 
 ### Tech Stack:
 - 
@@ -54,7 +55,7 @@ function createPhoneNumber(numbers){
 * CS50 video course
 * Read books You don`t know JS
 * JavaScript/Front-end 2021Q1 Status: Completed with certificate
-* React 2021 Q3 Status: Completed
+* React 2022 Q3 Status: Completed with certificate
 
 ### Language:
 * My English level Intermediate (B1)
